@@ -49,6 +49,50 @@
     <li>list item 5</li>
 </ul>
 
+<h4>Sign In Form</h4>
+<form>
+    <!--labels can help visually impaired people's since screen readers will look for labels-->
+    <label for="username">Username:</label>
+    <input id="username" type="text" placeholder="username" required>
+
+    <label for="password">Password</label>
+    <input id="password" type="password" placeholder="password" required>
+
+    <input type="submit">
+</form>
+
+<p><strong>Please select your gender</strong></p>
+<form>
+    <label for="female">Female:</label>
+    <input name="sex" id="female" type="radio" value="f">
+
+    <label for="male">Male:</label>
+    <input name="sex" id="male" type="radio" value="m">
+
+    <label for="other">Other:</label>
+    <textarea name="sex" id="other" rows="1" cols="10"></textarea>
+
+    <label for="prefer not to say">Prefer not to say:</label>
+    <input name="sex" id="prefer not to say" type="radio" value="unknown">
+
+    <input type="submit">
+</form>
+
+<p><strong>Pick your favorite color</strong></p>
+<form>
+    <select name="color">
+        <option>Red</option>
+        <option>Orange</option>
+        <option>Yellow</option>
+    </select>
+    <input type="submit">
+</form>
+
+<h4>Inputs</h4>
+<input type="color">
+<input type="radio">
+<input type="range">
+
 <h4>Nested list</h4>
 <ol>
     <li>list item 1
